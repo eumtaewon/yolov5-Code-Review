@@ -28,4 +28,16 @@ train.py parse_opt
 
 해당 인자가 어떠한 내용인지 알고 싶을때는 옆에 help에 적힌 내용을 보면 됨
 
-'--weights'=모델의 가중치 정보가 들어가 있는 파일의 경로
+'--weights'=모델의 가중치 정보가 들어가 있는 파일의 경로->이전 bee detection에서는 yolov5s.pt 사용
+
+'--cfg'= 모델의 구조를 의미함-> yolov5 폴더에 데이터 구조가 명시된 yaml파일을 선택
+
+'--data'= 데이터에 대한 정보 train/validation/test 경로 클래스 개수, 클래스 명이 담긴 yaml 파일의 경로를 입력
+
+'--epochs'= 학습을 몇 epoch으로 설정할 건지
+
+'--batch-size'= batch size를 설정
+
+'--imgsz'= 모델에 input할 이미지 사이즈 지정
+
+
