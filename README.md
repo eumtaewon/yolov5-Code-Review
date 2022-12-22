@@ -42,4 +42,4 @@ train.py parse_opt
 
 위의 해당 파라미터들은 연구자가 자유롭게 설정이 가능함.
 
-
+많은 인자들중 weights, cfg, data, epochs, batch-size, imgsz는 반드시 설정해주어야 yolov5 Model의 Train을 진행할 수 있다.
