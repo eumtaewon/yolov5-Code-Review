@@ -19,3 +19,7 @@ argparse.ArgumentParser() 프로그램을 실행시에 커맨드 라인에 인�
 ArgumentParser를 사용하면 아래와 같이 프로그램에서 처리할 수 있는 파라미터나 파일명을 실행시에 지정할 수 있음.
 
 ![image](https://user-images.githubusercontent.com/104436260/209034184-64bc45a7-f2e8-422f-9ab7-50f0a3145896.png)
+
+train.py parse_opt
+
+![image](https://user-images.githubusercontent.com/104436260/209034405-c9529182-eb48-4ce2-a4fd-d7f7d23ee9b2.png)
